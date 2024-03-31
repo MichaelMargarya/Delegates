@@ -1,0 +1,21 @@
+﻿<Window x:Class="QueWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QueWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF8ED3EB">
+        <Label Name="Label1" Content="label1" HorizontalAlignment="Left" Margin="95,59,0,0" VerticalAlignment="Top"/>
+        <Label Name="Label2" Content="label2" HorizontalAlignment="Left" Margin="418,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.495,0.522"/>
+        <Label Name="Label3" Content="label3" HorizontalAlignment="Left" Margin="345,59,0,0" VerticalAlignment="Top"/>
+        <Label Name="Label4" Content="label4" HorizontalAlignment="Left" Margin="288,59,0,0" VerticalAlignment="Top"/>
+        <Label Name="Label5" Content="label5" HorizontalAlignment="Left" Margin="220,59,0,0" VerticalAlignment="Top"/>
+        <Label Name="Label6" Content="label6" HorizontalAlignment="Left" Margin="161,59,0,0" VerticalAlignment="Top"/>
+        <Button Content="Enqueue"  HorizontalAlignment="Left" Margin="82,140,0,0" VerticalAlignment="Top" Width="130" Click="Enqueue"/>
+        <Button Content="Dequeue" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="274,140,0,0" Width="130" Click="Dequeue"/>
+        <ListBox Name="listBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="451,140,0,0"/>
+
+    </Grid>
+</Window>

@@ -26,7 +26,7 @@ namespace PostFixWPF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+
             Esa exp = new Esa();
             try
             {
