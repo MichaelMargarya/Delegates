@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace PostfixAlgorithm;
+﻿namespace PostfixAlgorithm;
 
 internal class PostStack
 {
